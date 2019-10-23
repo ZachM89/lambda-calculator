@@ -1,15 +1,19 @@
+.logo-container {
+    margin: 25px 4% 25px 4%;
+}
+
 .container {
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 }
 .display {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     height: 100px;
-    width: 450px;
+    width: 92%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,3 +24,98 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.App {
+    max-width: 550px;
+    margin: 25px 4% 25px 4%;
+}
+
+.allButtonsContainer {
+    display: flex;
+    margin: 25px 0px 25px 0px;
+    justify-content: space-between;
+}
+
+.specialsAndNumbersContainer {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.specialButtonsContainer {
+    display: flex;
+    /* max-width: 400px; */
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.specialButtons {
+    margin-top: 25px;
+    height: 94px;
+    width: 94px;
+    border-radius: 47px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    box-shadow: 2px 2px #322c2d;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 8%; */
+    font-size: 2.0rem;
+}
+
+.operatorButtonsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.test {
+    display: flex;
+    flex-flow: wrap;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.operatorButtons {
+    margin-top: 25px;
+    height: 94px;
+    width: 94px;
+    border-radius: 47px;
+    color: white;
+    background-color: rgb(0, 137, 200);
+    box-shadow: 2px 2px #322c2d;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 8%; */
+    font-size: 2.0rem;
+}
+
+.numberButtonsContainer {
+    display: flex;
+    /* max-width: 400px; */
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numberButtons {
+    margin-top: 25px;
+    /* margin-right: 10px; */
+    height: 94px;
+    width: 94px;
+    border-radius: 47px;
+    color: white;
+    background-color: rgb(0, 56, 161);
+    box-shadow: 2px 2px #322c2d;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 8%; */
+    font-size: 2.0rem;
+}
